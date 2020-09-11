@@ -806,7 +806,7 @@
        }
        footer{
            margin: 0;
-           height: 300px;
+           height: 380px;
        }
        
        .main-content{
@@ -817,7 +817,7 @@
        .main-content .box{
         display: flex;
         flex-direction: column;
-        padding: 20px;
+        padding: 30px;
        }
        .box h4{
            width: 190px;
@@ -828,10 +828,11 @@
        }
        .box .center{
            padding: 2px 0;
-           font-size: 16px;
+           font-size: 18px;
        }
        .right{
            margin: 10px 0;
+           padding: 20px;
        }
        .copy{
            margin: 10px 0;
