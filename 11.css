@@ -49,6 +49,7 @@
   background-color: rgba(173, 199, 67, 1);
     border: 2px solid rgba(173, 199, 67, 1);
 }
+
 .nav-btn {
     flex: 3;
     display: flex;
@@ -74,8 +75,17 @@
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 2px;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
+}
+.logo:hover{
+    background-color: #fff;
+    color: rgba(173, 199, 67, 1);
+    border: none;
+}
+.logo-container:hover{
+    background-color: #fff;
+    border: none;
+    color: rgba(173, 199, 67, 1);
 }
 .logo span{
     font-weight: 200;

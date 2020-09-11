@@ -77,6 +77,16 @@
     text-transform: uppercase;
     
 }
+.logo:hover{
+    background-color: #fff;
+    color: rgba(173, 199, 67, 1);
+    border: none;
+}
+.logo-container:hover{
+    background-color: #fff;
+    border: none;
+    color: rgba(173, 199, 67, 1);
+}
 .logo span{
     font-weight: 200;
     font-size: 0.5rem;
