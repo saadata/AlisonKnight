@@ -139,7 +139,7 @@
         </div>
     </section>
         <section class="space">
-            <div class="food">
+            <div class="food animate-left">
                 <div class="line">
                     <h2>Specialties</h2>
                 </div>
@@ -181,5 +181,23 @@
             </div>
         </footer>
 
+
+        <script>
+            window.sr = ScrollReveal();
+    
+            sr.reveal('.animate-left', {
+                origin: 'left',
+                duration: 1000,
+                distance: '25rem',
+                delay: 300
+            }),
+    
+            sr.reveal('.animate-right', {
+                origin: 'right',
+                duration: 1000,
+                distance: '25rem',
+                delay: 600
+            });
+        </script>
     </body>
     </html>
