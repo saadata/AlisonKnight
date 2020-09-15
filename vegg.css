@@ -67,11 +67,11 @@
 .logo:hover{
     background-color: #fff;
     color: rgba(173, 199, 67, 1);
-    border: none;
+    border: 2px solid #fff;
 }
 .logo-container:hover{
     background-color: #fff;
-    border: none;
+    border: 2px solid #fff;
     color: rgba(173, 199, 67, 1);
 }
 .logo span{
