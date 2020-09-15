@@ -317,7 +317,7 @@
     color: rgb(77, 76, 76);
     font-size: 16px;
     font-weight: 300;  
-    max-width: 170px;
+    max-width: 190px;
 }
 .contact-map{
     width: 40%;
@@ -629,7 +629,7 @@ transform: translateY(15px);
 }
 .address{
     font-size: 18px;
-    max-width: 190px;
+    max-width: 220px;
 
 }
 .contact-map{
