@@ -273,7 +273,6 @@ transform: translateY(0) rotate(45deg);
     }
     .name{
         position: absolute;
-        max-width: 365px;
     }
     .name h1{
         text-transform: capitalize;
@@ -330,7 +329,7 @@ transform: translateY(0) rotate(45deg);
             display: flex;   
         }
         .food {
-            margin: -320px 0 0 249px;            
+            margin: -345px 0 0 211px;            
             background: rgba(172, 162, 152, 1);           
             padding: 4.5rem 4rem;
             }
@@ -590,7 +589,8 @@ transform: translateY(0) rotate(45deg);
     }
     .restaurant-info-img{
         background-position: center;
-        max-width: 526px;        
+        max-width: 526px; 
+        min-width: 0;       
     }    
     .restaurant-info{
         display: block !important;
@@ -628,8 +628,8 @@ transform: translateY(0) rotate(45deg);
             width: 100%;            
         }
         footer{
-            margin: 0;
-            height: 300px;
+            margin: -49px 0 0 0;
+            height: 350px;
         }
         
         .main-content{
